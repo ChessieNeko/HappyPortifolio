@@ -1,3 +1,58 @@
-body{
-    background-color: rgb(162, 248, 219);
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #7c5e99;
+    border-bottom: 10px solid black;
+    padding: 10px 20px;
+}
+
+nav{
+    text-align: right;
+}
+
+a{
+    display: inline-flex;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-family: "Fira Code", Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 30px;
+} 
+
+a::before{
+    content: '';
+    background-color: #f25a70;
+    height: 10px;
+    width: 10px;
+    margin-right: 10px;
+}
+
+h1{
+    font-family: 'Press Start 2P', sans-serif;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    background-color: #f25a70;
+    margin: 0;
+
+    box-shadow: 5px 5px 0 black;
+}
+
+.btn-download{
+    display: inline-block;
+    background-color: #f25a70;
+    padding: 18px 20px;
+    margin: 0;
+
+    box-shadow: 5px 5px 0 black;
+    transition: transform 300ms cubic-bezier(0.45, -0.04, 0.7, 2.78);
+}
+
+.btn-download:hover{
+    transform: scale(1.08);
 }
