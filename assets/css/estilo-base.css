@@ -1,5 +1,7 @@
 body{ 
     font-family: "Fira Code", Arial, Helvetica, sans-serif;
+
+    height: 5000px;
 }
 
 .header{
@@ -25,13 +27,33 @@ h1, h2, h3{
 }
 
 #banner{
-    height:700px;
+    box-sizing: border-box;
+    height:800px;
     color: white;
     border-bottom: 10px solid black;
-    background-color: #7fffd4;
 
-    background-image: #7fffd4 url("/assets/imagens/banner-background-1.jpeg") no-repeat;
-    background-size: cover;
+    background-image: url(../imagens/imgBackground/background.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    padding-top: 115px;
+    padding-left: 90px;
+}
+
+#banner .box-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 640px;
+}
+
+#banner .box-btns{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+#banner .box-titulo{
+    margin-bottom: 40px;
 }
 
 .box-titulo{
