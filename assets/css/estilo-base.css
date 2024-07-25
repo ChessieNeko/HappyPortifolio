@@ -2,8 +2,5 @@ body{
     font-family: "Fira Code", Arial, Helvetica, sans-serif;
 
     height: 5000px;
-}
-
-h1, h2, h3{
-    font-family: 'Press Start 2P', sans-serif;
+    --progress: 50%;
 }

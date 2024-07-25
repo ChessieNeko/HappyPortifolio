@@ -10,10 +10,12 @@
     <!--Estilos-->
     <link rel="stylesheet" href="assets/css/normalize.css">
     <link rel="stylesheet" href="assets/css/estilo-base.css">
+    <link rel="stylesheet" href="assets/css/titles.css">
     <link rel="stylesheet" href="assets/css/header-nav.css">
     <link rel="stylesheet" href="assets/css/btn-padrao.css">
     <link rel="stylesheet" href="assets/css/action.css">
     <link rel="stylesheet" href="assets/css/banner.css">
+    <link rel="stylesheet" href="assets/css/section.css">
     <title>Portifólio Feliz</title>
 </head>
 <body>
@@ -30,8 +32,8 @@
     <section id="banner">
         <div class="box-wrapper">
             <div class="box-titulo">
-                <h1>Elizabeth Uzoegwu</h1>
-                <h2>Developer</h2>
+                <h1 class="title">Elizabeth Uzoegwu</h1>
+                <h2 class="subtitle">Developer</h2>
             </div>
             <div class="box-btns">
                 <button class="btn-download">Download CV</button>
@@ -39,16 +41,59 @@
             </div>
         </div>
     </section>
-    <section id="grupo-skills">
-        <div class="skill">
-            <img alt="logo da tecnologia">
-            <h3>HTML</h3>
-            <div class="barra-progresso"></div>
+    <section id="section">
+        <div class="skills-wrapper">
+            <h2 class="title -second">Skills</h2>
+            <div class="box-skills">
+                <div class="skill">
+                    <img class="logo-tec" alt="logo da tecnologia" src="assets/imagens/tecnologias/ico_html5.png">
+                    <div class="skill-info">
+                        <h3>HTML</h3>
+                        <div class="barra-progresso"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <img alt="logo da tecnologia" src="assets/imagens/tecnologias/ico_css3.png">
+                    <h3>CSS</h3>
+                    <div class="barra-progresso"></div>
+                </div>
+                <div class="skill">
+                    <img alt="logo da tecnologia" src="assets/imagens/tecnologias/ico_js.png">
+                    <h3>JavaScript</h3>
+                    <div class="barra-progresso"></div>
+                </div>
+                <!--
+                <div class="skill">
+                    <img alt="logo da tecnologia" src="assets/imagens/tecnologias/ico_react.png">
+                    <h3>React</h3>
+                    <div class="barra-progresso"></div>
+                </div>
+                <div class="skill">
+                    <img alt="logo da tecnologia" src="assets/imagens/tecnologias/ico_nodejs.png">
+                    <h3>NodeJS</h3>
+                    <div class="barra-progresso"></div>
+                </div>
+                <div class="skill">
+                    <img alt="logo da tecnologia" src="assets/imagens/tecnologias/ico_tdd.png">
+                    <h3>TDD</h3>
+                    <div class="barra-progresso"></div>
+                </div>
+                <div class="skill">
+                    <img alt="logo da tecnologia" src="assets/imagens/tecnologias/ico_restapi.png">
+                    <h3>Rest API</h3>
+                    <div class="barra-progresso"></div>
+                </div>
+                <div class="skill">
+                    <img alt="logo da tecnologia" src="assets/imagens/tecnologias/ico_ux.png">
+                    <h3>UX</h3>
+                    <div class="barra-progresso"></div>
+                </div>-->
+            </div>
         </div>
     </section>
     <!--
     <div id="projetos">
-        <h2>Projetos</h2>
+        <h2 class="title -second">Projetos</h2>
         <ul class="lista-projetos">
             <li>
                 <a>

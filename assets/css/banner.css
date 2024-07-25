@@ -24,23 +24,13 @@
     
 }
 
-#banner .box-titulo{
-    margin-bottom: 40px;
-}
-
 .box-titulo{
     display: inline-block;
     background-color: #3a4042;
 
     box-shadow: 10px 10px 0 black;
-    text-shadow: 4px 4px 0 black;
 
     text-align: center;
     padding: 42px 44px;
-}
-
-.box-titulo h1{
-    color: #f25a70;
-    font-size: 40px;
-    margin-bottom: 28px;
+    margin-bottom: 29px;
 }
