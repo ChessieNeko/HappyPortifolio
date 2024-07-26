@@ -1,4 +1,4 @@
-#banner{
+#section-banner{
     box-sizing: border-box;
     height:800px;
     color: white;
@@ -12,13 +12,13 @@
     padding-left: 90px;
 }
 
-#banner .box-wrapper{
+#section-banner .box-wrapper{
     display: flex;
     flex-direction: column;
     width: 640px;
 }
 
-#banner .box-btns{
+#section-banner .box-btns{
     display: flex;
     justify-content: space-around;
     

@@ -1,4 +1,4 @@
-.title{
+.title-base{
     font-family: 'Press Start 2P', sans-serif;
     font-size: 40px;
     color: #f25a70;
@@ -12,7 +12,7 @@
     font-size: 30px;
 }
 
-.title.-second{/*grudado significa que o elemento tem ambas classes*/
+.title-base.-second{/*grudado significa que o elemento tem ambas classes*/
     color: white;
     text-shadow: none;
     text-align: center;

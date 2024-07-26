@@ -6,7 +6,7 @@
     align-items: center;
 }
 
-.skill-tec .title{
+.skill-tec .title-base{
     text-shadow: none;
     font-size: inherit;
     color: white;
@@ -37,7 +37,7 @@
     background-color: white;
 }
 
-.skill-tec .title{
+.skill-tec .title-base{
     margin-bottom: 10px;
 }
 
