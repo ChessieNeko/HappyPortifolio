@@ -15,4 +15,5 @@
 .title.-second{/*grudado significa que o elemento tem ambas classes*/
     color: white;
     text-shadow: none;
+    text-align: center;
 }

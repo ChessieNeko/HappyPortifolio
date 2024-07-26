@@ -1,0 +1,64 @@
+.skill-tec{
+    color: white;
+    display: flex;
+    font-size: 25px;
+
+    align-items: center;
+}
+
+.skill-tec .title{
+    text-shadow: none;
+    font-size: inherit;
+    color: white;
+}
+
+.skill-tec .icon-skill{
+    margin-right: 25px;
+    width: 90px;
+}
+
+.skill-tec .div-bar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.progress-bar{
+    box-sizing: border-box;
+    border: 5px solid black;
+    height: 40px;
+}
+
+.progress-bar::-webkit-progress-value {
+    background-color: aquamarine;
+}
+
+.progress-bar::-webkit-progress-bar{
+    background-color: white;
+}
+
+.skill-tec .title{
+    margin-bottom: 10px;
+}
+
+.skills-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+
+    max-width: 960px;
+
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.skills-wrapper .skill-tec{
+    width: 430px;
+    margin-bottom: 40px;
+}
+.skills-wrapper .skill-tec:nth-child(odd){
+    margin-right: 100px;
+}
+
+.skills-wrapper .progress-bar{
+    width: 320px;
+}

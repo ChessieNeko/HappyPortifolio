@@ -10,6 +10,7 @@
     <!--Estilos-->
     <link rel="stylesheet" href="assets/css/normalize.css">
     <link rel="stylesheet" href="assets/css/estilo-base.css">
+    
     <link rel="stylesheet" href="assets/css/titles.css">
     <link rel="stylesheet" href="assets/css/header-nav.css">
     <link rel="stylesheet" href="assets/css/btn-padrao.css">
@@ -23,7 +24,7 @@
     <header class="header">
         <img class="logo" src="assets/imagens/logo.png" alt="imagem do meu perfil">
         <nav>            
-            <a class="action" href="#grupo-skills" lang="en">Skills</a>
+            <a class="action" href="#section" lang="en">Skills</a>
             <a class="action" href="#projetos">Projetos</a>
             <a class="action" href="#sobre">Sobre</a>
             <a class="action" href="#contato">Contato</a>
@@ -43,57 +44,102 @@
         </div>
     </section>
     <section id="section">
+        <h2 class="title -second">Skills</h2>
         <div class="skills-wrapper">
-            <h2 class="title -second">Skills</h2>
-            <div class="box-skills">
-                <div class="skill">
-                    <dl class="skill-info"><!--DescriptionList-->
-                        <dt>HTML</dt><!--DescriptionTitle-->
-                        <dd><!--DefineDescription-->
-                            <img class="icon-skill" alt="icone da tecnologia" src="assets/imagens/tecnologias/ico_html5.png">
-                        </dd>
-                        <dd>
-                            <div class="barra-progresso"></div>
-                        </dd>
-                    </dl>
+            <article class="skill-tec">
+                <img class="icon-skill" alt="icone da tecnologia" src="assets/imagens/tecnologias/ico_html5.png">
+                    
+                <div class="div-bar">
+                    <h3 class="title">HTML</h3>
+                    <progress class="progress-bar" max="100" value="70">
+                        70%
+                    </progress>
                 </div>
-                <div class="skill">
-                    <img alt="logo da tecnologia" src="assets/imagens/tecnologias/ico_css3.png">
-                    <h3>CSS</h3>
-                    <div class="barra-progresso"></div>
+            </article>
+            <!--Usando DescriptionList
+            <dl class="skill-tec"><!--DescriptionList--
+                <dd class="icon-skill"><!--DefineDescription--
+                    <img alt="icone da tecnologia" src="assets/imagens/tecnologias/ico_html5.png">
+                </dd>
+                <dt class="title">HTML</dt><!--DescriptionTitle--
+                <dd>
+                    <progress class="progress-bar" max="100" value="70">
+                        70%
+                    </progress>
+                </dd>
+            </dl>-->
+
+            <article class="skill-tec">
+                <img class="icon-skill" alt="icone da tecnologia" src="assets/imagens/tecnologias/ico_css3.png">
+                
+                <div class="div-bar">
+                    <h3 class="title">CSS</h3>
+                    <progress class="progress-bar" max="100" value="70">
+                        70%
+                    </progress>
                 </div>
-                <div class="skill">
-                    <img alt="logo da tecnologia" src="assets/imagens/tecnologias/ico_js.png">
-                    <h3>JavaScript</h3>
-                    <div class="barra-progresso"></div>
+            </article>
+            <article class="skill-tec">
+                <img class="icon-skill" alt="icone da tecnologia" src="assets/imagens/tecnologias/ico_js.png">
+                
+                <div class="div-bar">
+                    <h3 class="title">JavaScript</h3>
+                    <progress class="progress-bar" max="100" value="30">
+                        30%
+                    </progress>
                 </div>
-                <!--
-                <div class="skill">
-                    <img alt="logo da tecnologia" src="assets/imagens/tecnologias/ico_react.png">
-                    <h3>React</h3>
-                    <div class="barra-progresso"></div>
+            </article>
+            
+            <article class="skill-tec">
+                <img class="icon-skill" alt="icone da tecnologia" src="assets/imagens/tecnologias/ico_react.png">
+                
+                <div class="div-bar">
+                    <h3 class="title">React</h3>
+                    <progress class="progress-bar" max="100" value="10">
+                        10%
+                    </progress>
                 </div>
-                <div class="skill">
-                    <img alt="logo da tecnologia" src="assets/imagens/tecnologias/ico_nodejs.png">
-                    <h3>NodeJS</h3>
-                    <div class="barra-progresso"></div>
+            </article>
+            <article class="skill-tec">
+                <img class="icon-skill" alt="icone da tecnologia" src="assets/imagens/tecnologias/ico_nodejs.png">
+                
+                <div class="div-bar">
+                    <h3 class="title">NodeJS</h3>
+                    <progress class="progress-bar" max="100" value="10">
+                        10%
+                    </progress>
                 </div>
-                <div class="skill">
-                    <img alt="logo da tecnologia" src="assets/imagens/tecnologias/ico_tdd.png">
-                    <h3>TDD</h3>
-                    <div class="barra-progresso"></div>
+            </article>
+            <article class="skill-tec">
+                <img class="icon-skill" alt="icone da tecnologia" src="assets/imagens/tecnologias/ico_tdd.png">
+                
+                <div class="div-bar">
+                    <h3 class="title">TDD</h3>
+                    <progress class="progress-bar" max="100" value="10">
+                        10%
+                    </progress>
                 </div>
-                <div class="skill">
-                    <img alt="logo da tecnologia" src="assets/imagens/tecnologias/ico_restapi.png">
-                    <h3>Rest API</h3>
-                    <div class="barra-progresso"></div>
+            </article>
+            <article class="skill-tec">
+                <img class="icon-skill" alt="icone da tecnologia" src="assets/imagens/tecnologias/ico_restapi.png">
+                
+                <div class="div-bar">
+                    <h3 class="title">Rest API</h3>
+                    <progress class="progress-bar" max="100" value="10">
+                        10%
+                    </progress>
                 </div>
-                <div class="skill">
-                    <img alt="logo da tecnologia" src="assets/imagens/tecnologias/ico_ux.png">
-                    <h3>UX</h3>
-                    <div class="barra-progresso"></div>
-                </div>-->
-            </div>
+            </article>
+            <article class="skill-tec">
+                <img class="icon-skill" alt="icone da tecnologia" src="assets/imagens/tecnologias/ico_ux.png">
+                
+                <div class="div-bar">
+                    <h3 class="title">UX</h3>
+                    <progress class="progress-bar" max="100" value="10">
+                        10%
+                    </progress>
+                </div>
+            </article>
         </div>
     </section>
     <!--
