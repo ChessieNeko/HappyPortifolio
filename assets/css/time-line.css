@@ -1,0 +1,58 @@
+.time-line{
+    /*display: flex;
+    justify-content: center;*/
+}
+
+.node-card{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: relative;
+}
+
+.node-card::before{/*linha q conecta data e card*/
+    content: '';
+    box-sizing: border-box;
+    border-top: 3px dashed black;
+    height: 0px;
+    width: 40px;
+    transform: rotate(90deg) translateX(-75%);
+
+    position: absolute;
+    bottom: 140px;
+}
+
+.node-card .title-base{
+    text-shadow: none;
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.node-card .logo-tec{
+    display: flex;
+    align-items: center;
+
+    height: 150px;
+    border: 5px solid black;
+    padding: 0 20px;
+    background-color: #CEB02A;
+}
+
+.node-card .logo-tec.-bRosa{
+    background-color: #f25a70;
+}
+
+.node-card .img-node{
+    
+}
+
+.node-card.-clean{
+
+}
+
+.node-card.-clean .logo-tec{
+    padding: 0;
+    margin: 0;
+}

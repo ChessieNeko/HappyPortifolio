@@ -14,3 +14,30 @@
 .btn-base:hover{
     transform: scale(1.08);
 }
+
+.btn-arrow{
+    width: 50px;
+    height: 50px;
+}
+/*Criando a seta de forma complicada com Border*/
+.btn-arrow::before{
+    content: '';
+    display: block;
+
+    box-sizing: border-box;
+    width: 15px;
+    height: 15px;
+    border: 20px solid transparent;
+}
+
+.btn-arrow.-left::before{
+    border-left: 28px solid white;
+    transform: translate(-6px, -12px);
+}
+.btn-arrow.-right::before{
+    border-right: 28px solid white;
+    transform: translate(-30px, -12px);
+}
+.btn-arrow .content-btn{
+    display: none;
+}
