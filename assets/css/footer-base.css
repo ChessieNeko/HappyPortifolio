@@ -1,0 +1,12 @@
+.footer-base{
+    box-sizing: border-box;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+
+    padding: 28px 0;
+}
+
+.footer-base .action{
+    margin: 0 20px;
+}

@@ -1,4 +1,8 @@
 /*cor rosa padrão: #f25a70*/
+body{
+    height: 100%;
+}
+
 #section-base{
     background-color: #f25a70;
     padding-top: 50px;
