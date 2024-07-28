@@ -21,6 +21,7 @@
     background-color: black;
 }
 .time-line::before{
+    box-sizing: border-box;
     content: '';
     position: absolute;
 
@@ -33,9 +34,15 @@
 }
 
 .time-line .carrossel-itens{
+    width: 100%;
+    overflow: hidden;
+}
+
+.time-line .aux-carrossel-anima{
     display: flex;
     justify-content: space-between;
-    width: 100%;
+
+    transition: transform .7s cubic-bezier(0.42, 0, 0.34, 1.65);
 }
 
 .time-line .btn-arrow{
