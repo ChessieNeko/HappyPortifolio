@@ -8,6 +8,10 @@
 *1. Resetar links
 *2. Resetar Listas
 */
+* {
+  box-sizing: border-box;
+}
+
 a{
   text-decoration: none;
   color: inherit;
@@ -15,7 +19,10 @@ a{
 ul, ol{
   list-style: none;
 }
-
+figure{
+  margin: 0;
+  padding: 0;
+}
 /**
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.

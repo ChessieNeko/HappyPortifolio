@@ -31,12 +31,12 @@
 }
 
 .btn-arrow.-left::before{
-    border-left: 28px solid white;
-    transform: translate(-6px, -12px);
-}
-.btn-arrow.-right::before{
     border-right: 28px solid white;
     transform: translate(-30px, -12px);
+}
+.btn-arrow.-right::before{
+    border-left: 28px solid white;
+    transform: translate(-6px, -12px);
 }
 .btn-arrow .content-btn{
     display: none;

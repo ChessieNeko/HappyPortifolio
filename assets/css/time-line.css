@@ -1,6 +1,56 @@
 .time-line{
-    /*display: flex;
-    justify-content: center;*/
+    position: relative;
+    padding: 0 100px;
+    
+    display: flex;
+    justify-content:space-between;
+
+    margin: 60px;
+}
+.time-line::after{
+    content: '';
+    position: absolute;
+
+    left: 40px;
+    top: 36px;
+
+    display: block;
+    height: 6px;
+    width: calc(100% - 80px);
+
+    background-color: black;
+}
+.time-line::before{
+    content: '';
+    position: absolute;
+
+    left: 0;
+    top: 36px;
+
+    display: block;
+    border: 3px dashed black;
+    width: 100%;
+}
+
+.time-line .carrossel-itens{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.time-line .btn-arrow{
+    position: absolute;
+    bottom: 70px;
+    transform: translateY(50%);
+}
+.time-line .btn-arrow:hover{
+    transform: translateY(50%) scale(1.08);
+}
+.time-line .btn-arrow.-right{
+    right: 15px;
+}
+.time-line .btn-arrow.-left{
+    left: 15px;
 }
 
 .node-card{
@@ -10,7 +60,6 @@
 
     position: relative;
 }
-
 .node-card::before{/*linha q conecta data e card*/
     content: '';
     box-sizing: border-box;
@@ -22,14 +71,12 @@
     position: absolute;
     bottom: 140px;
 }
-
 .node-card .title-base{
     text-shadow: none;
     font-size: 25px;
     font-weight: 400;
     margin-bottom: 50px;
 }
-
 .node-card .logo-tec{
     display: flex;
     align-items: center;
@@ -39,19 +86,9 @@
     padding: 0 20px;
     background-color: #CEB02A;
 }
-
 .node-card .logo-tec.-bRosa{
     background-color: #f25a70;
 }
-
-.node-card .img-node{
-    
-}
-
-.node-card.-clean{
-
-}
-
 .node-card.-clean .logo-tec{
     padding: 0;
     margin: 0;
