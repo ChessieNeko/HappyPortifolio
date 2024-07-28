@@ -17,3 +17,9 @@
     text-shadow: none;
     text-align: center;
 }
+
+.form-title{
+    color: white;
+    font-size: 25px;
+    font-weight: lighter;
+}
