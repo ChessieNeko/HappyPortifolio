@@ -10,6 +10,7 @@
     text-shadow: none;
     font-size: inherit;
     color: white;
+    margin-bottom: 200px;
 }
 
 .skill-tec .icon-skill{
@@ -35,6 +36,10 @@
 
 .progress-bar::-webkit-progress-bar{
     background-color: white;
+}
+
+#section-base .title-base.-second{/*grudado significa que o elemento tem ambas classes*/
+    margin-bottom: 40px;
 }
 
 .skill-tec .title-base{
