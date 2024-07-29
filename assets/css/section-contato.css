@@ -1,10 +1,31 @@
 #section-contato{
-    background-color: rgb(44, 43, 43);
+    background-color: #3A4042;
     display: flex;
     flex-direction: column;
+
+    padding: 40px; 
 }
 
 .form-fildset{
     display: flex;
     flex-direction: column
+}
+
+.form-fildset .main-input{
+    box-sizing: border-box;
+    border: 5px solid black;
+    font-size: 30px;
+    height: 50px;
+
+    padding: 0 10px;
+    margin-bottom: 20px;
+
+    outline: 0;
+}
+.form-fildset .main-input#mensagem{
+    height: 320px;
+}
+
+.form-fildset .btn-base:hover{
+    transform: scale(1.01);
 }
